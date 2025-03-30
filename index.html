@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer | VerdaVolt</title>
+    <link rel="stylesheet" type="text/css" href="vol.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">☀️</span>
+                <span>VerdaVolt</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Volunteer</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Join Our Volunteer Team</h1>
+        <p>Help us create a sustainable future by promoting renewable energy in our communities. Your time and passion can make a real difference.</p>
+        <a href="#volunteer-form" class="btn">Apply Now</a>
+    </section>
+    
+    <section class="container">
+        <h2 class="section-title">Volunteer Opportunities</h2>
+        <div class="opportunities">
+            <div class="opportunity-card">
+                <div class="card-image">
+                    <img src="Com.jpg" alt="Community Outreach" width="400" height="200" />
+                </div>
+                <div class="card-content">
+                    <h3>Community Outreach</h3>
+                    <p>Engage with local communities through workshops, information sessions, and public events to raise awareness about renewable energy options.</p>
+                </div>
+            </div>
+            
+            <div class="opportunity-card">
+                <div class="card-image">
+                    <img src="Content.png" alt="Content Creation" width="400" height="200"/>
+                </div>
+                <div class="card-content">
+                    <h3>Content Creation</h3>
+                    <p>Help develop educational materials, blog posts, infographics, and social media content that explain the benefits of renewable energy.</p>
+                </div>
+            </div>
+            
+            <div class="opportunity-card">
+                <div class="card-image">
+                    <img src="Event.jpg" alt="Event Planning" width="400" height="200" />
+                </div>
+                <div class="card-content">
+                    <h3>Event Planning</h3>
+                    <p>Assist in organizing and running events such as energy fairs, workshops, and community clean energy initiatives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container" id="volunteer-form">
+        <h2 class="section-title">Volunteer Application</h2>
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="interest">Area of Interest</label>
+                    <select id="interest" name="interest" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="outreach">Community Outreach</option>
+                        <option value="content">Content Creation</option>
+                        <option value="events">Event Planning</option>
+                        <option value="general">General Support</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="availability">Availability</label>
+                    <select id="availability" name="availability" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="weekdays">Weekdays</option>
+                        <option value="weekends">Weekends</option>
+                        <option value="evenings">Evenings</option>
+                        <option value="flexible">Flexible</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="experience">Relevant Experience</label>
+                    <textarea id="experience" name="experience"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="motivation">Why are you interested in volunteering with us?</label>
+                    <textarea id="motivation" name="motivation" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">☀️</span>
+                <span>VerdaVolt</span>
+            </div>
+            
+            <ul class="social-links">
+                <li><a href="#">📘</a></li>
+                <li><a href="#">📷</a></li>
+                <li><a href="#">🐦</a></li>
+                <li><a href="#">📽️</a></li>
+            </ul>
+            
+            <p>&copy; 2025 VerdaVolt. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
